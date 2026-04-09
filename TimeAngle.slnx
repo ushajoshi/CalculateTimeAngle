@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="TimeAngle.Tests/TimeAngle.Tests.csproj" Id="a7e59a0f-4fd9-49dd-accf-6e76c442adaa" />
+  <Project Path="TimeAngle/TimeAngle.csproj" />
+</Solution>
