@@ -1,0 +1,52 @@
+{
+  "openapi": "3.0.4",
+  "info": {
+    "title": "TimeAngle",
+    "version": "1.0"
+  },
+  "paths": {
+    "/api/TimeAngleApi/CalculateTimeAngle": {
+      "get": {
+        "tags": [
+          "TimeAngleApi"
+        ],
+        "parameters": [
+          {
+            "name": "time",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "hour",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "minutes",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { },
+  "tags": [
+    {
+      "name": "TimeAngleApi"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+@TimeAngle_HostAddress = http://localhost:5082
+
+GET {{TimeAngle_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

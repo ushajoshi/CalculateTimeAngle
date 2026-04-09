@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TimeAngle</name>
+    </assembly>
+    <members>
+        <member name="P:TimeAngle.Models.TimeAngleRequest.Time">
+            <summary>
+            Combined time in HH:MM format. Example: 03:30
+            </summary>
+        </member>
+        <member name="P:TimeAngle.Models.TimeAngleRequest.Hour">
+            <summary>
+            Hour component when using separate parameters. Valid range: 0-12.
+            </summary>
+        </member>
+        <member name="P:TimeAngle.Models.TimeAngleRequest.Minutes">
+            <summary>
+            Minute component when using separate parameters. Valid range: 0-59.
+            </summary>
+        </member>
+    </members>
+</doc>
